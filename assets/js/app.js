@@ -67,7 +67,7 @@
                 }, 200);
                 setTimeout(function () {
                     $sidebar.find('.tabs').show();
-                }, 300);
+                }, 310);
             } else {
                 $body.addClass('sidebar-closed')
                     .find('.tabs').hide();
@@ -111,7 +111,8 @@
             backColor: '#fff',
             borderColor: 'transparent',
             onhoverColor: '#f2f2f2',
-            selectedBackColor: 'transparent',
+            selectedColor: '#002F57',
+            selectedBackColor: '#fff',
 
             showBorder: false,
             showCheckbox: true,
